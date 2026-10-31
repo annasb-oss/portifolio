@@ -7,41 +7,44 @@ interface ArtItem {
   title: string;
 }
 
+const assetUrl = (fileName: string) =>
+  `${import.meta.env.BASE_URL}assets/aistudio/${fileName}`;
+
 const GALLERY_ITEMS: ArtItem[] = [
   {
     id: 'ana-franz',
     type: 'image',
-    src: '/assets/aistudio/WhatsApp_Image_2026-10-31_at_15.54.53_91e60b69.jpeg',
+    src: assetUrl('WhatsApp_Image_2026-10-31_at_15.54.53_91e60b69.jpeg'),
     title: 'Ana Franz'
   },
   {
     id: 'bella-box',
     type: 'image',
-    src: '/assets/aistudio/WhatsApp_Image_2026-10-31_at_15.53.31__1__c34f079b.jpeg',
+    src: assetUrl('WhatsApp_Image_2026-10-31_at_15.53.31__1__c34f079b.jpeg'),
     title: 'Bella Rações - Box'
   },
   {
     id: 'bella-pouch',
     type: 'image',
-    src: '/assets/aistudio/WhatsApp_Image_2026-10-31_at_15.53.31_5a051cf2.jpeg',
+    src: assetUrl('WhatsApp_Image_2026-10-31_at_15.53.31_5a051cf2.jpeg'),
     title: 'Bella Rações - Pouch'
   },
   {
     id: 'video-manifesto',
     type: 'video',
-    src: '/assets/aistudio/WhatsApp_Video_2026-10-31_at_15.54.52_dd978c31.mp4',
+    src: assetUrl('WhatsApp_Video_2026-10-31_at_15.54.52_dd978c31.mp4'),
     title: 'Apresentação em Vídeo'
   },
   {
     id: 'informativo',
     type: 'image',
-    src: '/assets/aistudio/WhatsApp_Image_2026-10-31_at_15.54.50_139abffc.jpeg',
+    src: assetUrl('WhatsApp_Image_2026-10-31_at_15.54.50_139abffc.jpeg'),
     title: 'Informativo'
   },
   {
     id: 'bella-logo',
     type: 'image',
-    src: '/assets/aistudio/WhatsApp_Image_2026-10-31_at_15.56.35_2f9de223.jpeg',
+    src: assetUrl('WhatsApp_Image_2026-10-31_at_15.56.35_2f9de223.jpeg'),
     title: 'Bella Rações - Logo'
   }
 ];

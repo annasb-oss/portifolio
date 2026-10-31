@@ -24,7 +24,7 @@ export const LifestyleSection: React.FC = () => {
       {/* Full-width Editorial Portrait of Anna Silva - Head completely visible without abrupt cut */}
       <div className="relative w-full overflow-hidden flex items-center justify-center bg-[#25320c] z-10">
         <img
-          src="/assets/aistudio/Retrato_elegante_com_sorriso_suave_c6ff7cf3.png"
+          src={`${import.meta.env.BASE_URL}assets/aistudio/Retrato_elegante_com_sorriso_suave_c6ff7cf3.png`}
           alt="Anna Silva - Publicidade & Propaganda"
           className="w-full h-auto max-h-[820px] object-cover object-top block"
         />
