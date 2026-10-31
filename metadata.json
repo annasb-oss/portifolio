@@ -1,0 +1,6 @@
+{
+  "name": "Anna Silva Co. - Savoury Seasoning & Goodies",
+  "description": "Clonagem fiel com layout e paleta de cores vibrantes, apresentando a linha de temperos e flocos nutritivos de Anna Silva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
